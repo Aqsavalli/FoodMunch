@@ -1,0 +1,388 @@
+.color-palette-heading {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navbar-image {
+    transition: transform 0.3s ease;
+    transform-origin: center;
+}
+
+.navbar-image:hover {
+    transform: scale(1.5);
+}
+
+.color-name {
+    color: white;
+    font-size: 24px;
+}
+
+.color-box {
+    padding: 30px;
+}
+
+.navbar-image {
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+}
+
+.navbar-items-alignment {
+    text-align: right;
+}
+
+#navItem1 {
+    color: #323f4b;
+    font-family: roboto;
+}
+
+#navItem2 {
+    color: #323f4b;
+    font-family: roboto;
+}
+
+#navItem3 {
+    color: #323f4b;
+    font-family: roboto;
+}
+
+#navItem4 {
+    color: #323f4b;
+    font-family: roboto;
+}
+
+.nav-link {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #d0b200;
+    position: relative;
+    padding-bottom: 5px;
+    transition: color 0.3s ease;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #d0b200;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.banner-section-bg-container {
+    background-image: url(banner.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.banner-heading {
+    color: white;
+    font-family: roboto;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.banner-caption {
+    color: #f5f7fa;
+    font-family: roboto;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.custom-button {
+    width: 130px;
+    height: 45px;
+    color: white;
+    background-color: #d0b200;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.custom-outline-button {
+    width: 130px;
+    height: 45px;
+    color: #d0b200;
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #d0b200;
+    border-radius: 8px;
+}
+
+.custom-button::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #d0b200;
+    transition: width 0.3s ease;
+}
+
+.custom-button::after {
+    width: 100%;
+}
+
+.custom-button:hover {
+    color: #f1ed1f;
+}
+
+.custom-outline-button::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #edece4;
+    transition: width 0.3s ease;
+}
+
+.custom-outline-button::after {
+    width: 100%;
+}
+
+.custom-outline-button:hover {
+    color: #f1ed12;
+}
+
+.wcu-section {
+    background-color: #f9fbfe;
+}
+
+.wcu-section-heading {
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+}
+
+.wcu-section-description {
+    font-family: roboto;
+    font-size: 16px;
+    color: #5a7184;
+}
+
+.wcu-card {
+    background-color: white;
+    text-align: center;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+}
+
+.wcu-card-image {
+    height: 100px;
+    width: 100px;
+}
+
+.wcu-card-title {
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 22px;
+    color: #323f4b;
+}
+
+.wcu-card-description {
+    font-family: roboto;
+    font-size: 16px;
+    color: #7b8794;
+}
+
+.offers {
+    color: #323f4b;
+    font-weight: 600;
+    font-style: itallic;
+}
+
+.wcu-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+
+}
+
+.wcu-card:hover {
+    transform: scale(1.1);
+}
+
+.explore-menu-section {
+    background-color: white;
+}
+
+.explore-menu-heading {
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+}
+
+.menu-item-image {
+    border-radius: 16px;
+    width: 290px;
+    height: 304px;
+}
+
+.menu-card-title {
+    color: #323f4b;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+.menu-item-link {
+    color: #d0b200;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.menu-item-card {
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+}
+
+.menu-item-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item-image {
+    transition: transform 0.3s ease;
+}
+
+.menu-item-card:hover  .menu-item-image {
+    transform: scale(1.1);
+}
+
+.healthy-food-section {
+    background-color: #f9fbfe;
+  }
+  .healthy-food-section-img {
+    width: 270px;
+  }
+
+  
+    .healthy-food-section-img {
+        transition: box-shadow 0.3s ease;
+    }
+    .healthy-food-section-img:hover {
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    }
+    
+  .healthy-food-section-heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+  }
+  .healthy-food-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+  }
+  .custom-button {
+    width: 130px;
+    height: 45px;
+    color: white;
+    background-color: #d0b200;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+  }
+  .delivery-and-payment-section-img {
+    width: 270px;
+  }
+
+  .delivery-and-payment-section-img {
+    transition: box-shadow 0.3s ease;
+}
+.delivery-and-payment-section-img:hover {
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+  .delivery-and-payment-section-heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+  }
+  .delivery-and-payment-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+  }
+  .payment-card-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 28px;
+  }
+
+  .payment-card-img:hover {
+        position: relative;
+        transition: transform 0.3s ease;
+    }
+  
+  
+  .thanking-customers-section {
+    background-color: #d0b2001a;
+  }
+  .thanking-customers-section-heading {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+  }
+  .thanking-customers-section-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+  }
+  .thanking-customers-section-img {
+    width: 270px;
+    margin-bottom: 20px;
+  }
+
+  .thanking-customers-section-img:hover {
+    transform: scale(1.5);
+  }
+
+  .icon {
+    color: #d0b200;
+    font-size: 35px;
+}
+
+.follow-us-icon-container {
+    width: 80px;
+    height: 80px;
+    background-color: #faf7e8;
+    padding-top: 22px;
+    padding-bottom: 14px;
+    padding-right: 16px;
+    padding-left: 22px;
+    margin: 15px;
+    border-radius: 40px;
+}
+
+.follow-us-icon-container:hover {
+    transform: scale(1.5);
+}
